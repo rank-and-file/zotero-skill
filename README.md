@@ -33,8 +33,8 @@ source ~/.zshrc  # or source ~/.bashrc
 Copy the skill file into your global Claude Code skills directory:
 
 ```bash
-mkdir -p ~/.claude/skills
-cp zotero/SKILL.md ~/.claude/skills/zotero.md
+mkdir -p ~/.claude/skills/zotero
+cp zotero/SKILL.md ~/.claude/skills/zotero/SKILL.md
 ```
 
 ### Step 4: Allow network access
